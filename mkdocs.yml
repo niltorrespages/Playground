@@ -1,3 +1,26 @@
 site_name: Nil's playground
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+plugins:
+  - glightbox
+nav:
+  - Home: index.md
+  - About:
+      - WhoamI: about/whoami.md
+  - Home server:
+      -  Asus ChromeBox 4 - Duffy: server/DuffyCbox4.md
+  - Cybersec: Cybersec/mobile.md
+  - Bicing:
+      - Intro: Bicing/Bicing.md
+      - Bot: Bicing/Bot.md
+      - Heatmap: Bicing/Heatmap.md
+      - HomeAssistant: Bicing/HomeAssistant.md
+markdown_extensions:
+  - pymdownx.snippets:
+      check_paths: true
+  - attr_list
+  - md_in_html
+

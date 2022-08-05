@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.3.0, mkdocs-material-8.3.8" name="generator"/>
+<title>Asus ChromeBox 4 - Duffy - Nil's playground</title>
+<link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>html.glightbox-open { overflow: initial; height: 100%; }</style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#installing-ubuntu-2204-server-in-asus-chromebox-4">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--lifted" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Nil's playground" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Nil's playground">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Nil's playground
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Asus ChromeBox 4 - Duffy
+            
+          </span>
+</div>
+</div>
+</div>
+</nav>
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-tabs__inner md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+      Home
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../about/whoami/">
+        About
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="./">
+        Home server
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Cybersec/mobile/">
+      Cybersec
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../Bicing/Bicing/">
+        Bicing
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Nil's playground" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Nil's playground">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Nil's playground
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Home
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          About
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="About" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../about/whoami/">
+        WhoamI
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Home server
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Home server" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Home server
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Asus ChromeBox 4 - Duffy
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Asus ChromeBox 4 - Duffy
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+    Resources
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#introduction">
+    Introduction
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#issues">
+    Issues
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#add-legacy-flag-and-implement-legacy-boot-mode">
+    Add legacy flag and implement legacy boot mode
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#booting-an-ubuntu-image">
+    Booting an Ubuntu image
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cybersec/mobile/">
+        Cybersec
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5">
+          Bicing
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Bicing" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Bicing
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Bicing/Bicing/">
+        Intro
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Bicing/Bot/">
+        Bot
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Bicing/Heatmap/">
+        Heatmap
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Bicing/HomeAssistant/">
+        HomeAssistant
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+    Resources
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#introduction">
+    Introduction
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#issues">
+    Issues
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#add-legacy-flag-and-implement-legacy-boot-mode">
+    Add legacy flag and implement legacy boot mode
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#booting-an-ubuntu-image">
+    Booting an Ubuntu image
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="installing-ubuntu-2204-server-in-asus-chromebox-4">Installing Ubuntu 22.04 Server in Asus Chromebox 4</h1>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://mrchromebox.tech/">https://mrchromebox.tech/</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>I scored a cool Asus ChromeBox 4 Duffy (i3 10th generation, 8GB RAM and, 60 GB SSD) for quite a cheap price with the 
+intentions of transforming it into a home server. My only issues is with its specs are the low SSD capacity but I have
+in mind implementing a NAS setup sometime in the future. This should be enough to host all my tinkering for a while.</p>
+<h2 id="issues">Issues</h2>
+<p>I intended to convert my Box into a server not knowing exactly where I was going. ChromeOS by default has a 
+write protection flag for the firmware which does not allow us to boot from other sources than the intended one. 
+This means you can not boot your shiny new OS directly from a USB stick.</p>
+<p>I have 2 solutions to bypass this protection:
+- Legacy boot mode
+- Disabling the Write Protection flag</p>
+<p>You can find <a href="https://mrchromebox.tech/#devices">here</a> what options your device has. </p>
+<p>The primary recommendation is to disable the WP flag as it allows you to automatically boot 
+from your desired OS. Also, for older versions of ChromBox booting in Legacy mode may not be supported.</p>
+<p>For newer versions Legacy boot mode should be supported and disabling the WP is more difficult as it requires 
+<a href="https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/HEAD/docs/ccd.md#SuzyQ-SuzyQable">special hardware</a>.</p>
+<p>Google has implemented a new way to remove the WP flag that involves a <strong>Suzy-Q cable</strong>. This is a USB-A to USB-C 
+cable with modified wiring that allows the device for developer uses. </p>
+<p>As I don't have this cable at the moment, and I wanted a quick set-up Legacy boot mode it is.</p>
+<h2 id="add-legacy-flag-and-implement-legacy-boot-mode">Add legacy flag and implement legacy boot mode</h2>
+<p>I'm  not going to explain it better than in MrChromebox blog so <a href="https://mrchromebox.tech/#bootmodes">here is the link</a>. </p>
+<p>Just as a quick recap:</p>
+<ol>
+<li>Start-up as recovery mode (Use a sim card remover tool)</li>
+<li>Start-up as developer mode (It is going to take a while to boot as it removes everything)</li>
+<li>Access the shell in developer mode </li>
+<li>Run the <a href="https://mrchromebox.tech/#fwscript">utility script</a> in MrChromebox page</li>
+<li>Start-up normally and press <em>Ctrl+L</em></li>
+</ol>
+<h2 id="booting-an-ubuntu-image">Booting an Ubuntu image</h2>
+<p>Select in the bios page booting from a USB and install your shiny new OS!</p>
+<p><strong>As said previously, Legacy booting mode is not going to be initiated automatically. This means that if the server 
+shuts down for whatever reason I need to press CTRL+L to initiate the boot mode again.</strong></p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: WhoamI" class="md-footer__link md-footer__link--prev" href="../../about/whoami/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              WhoamI
+            </div>
+</div>
+</a>
+<a aria-label="Next: Cybersec" class="md-footer__link md-footer__link--next" href="../../Cybersec/mobile/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Cybersec
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.0238f547.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "width": "100%", "height": "auto", "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

@@ -8,12 +8,12 @@ Here you can find a peek, but I have to find a way to update it every 15-30 minu
 [Heat Map](Map.html)
 
 <figure markdown>
-  ![Empty Stations](heatmap1.png)
+  ![Empty Stations](../images/heatmap1.png)
   <figcaption></figcaption>
 </figure>
 
 <figure markdown>
-  ![Heatmap types bikes](heatmap2.png)
+  ![Heatmap types bikes](../images/heatmap2.png)
   <figcaption></figcaption>
 </figure>
 

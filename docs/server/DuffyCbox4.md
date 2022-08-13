@@ -1,4 +1,4 @@
-# Installing Ubuntu 22.04 Server in Asus Chromebox 4
+# Installing Ubuntu 20.04 Server in Asus Chromebox 4
 
 ## Resources
 
@@ -42,7 +42,7 @@ Just as a quick recap:
 1. Start-up as recovery mode (Use a sim card remover tool)
 2. Start-up as developer mode (It is going to take a while to boot as it removes everything)
 3. Access the shell in developer mode 
-4. Run the [utility script](https://mrchromebox.tech/#fwscript) in MrChromebox page
+4. Run the [utility script](https://mrchromebox.tech/#fwscript) found in MrChromebox page
 5. Start-up normally and press *Ctrl+L*
 
 ## Booting an Ubuntu image
@@ -50,4 +50,4 @@ Just as a quick recap:
 Select in the bios page booting from a USB and install your shiny new OS!
 
 **As said previously, Legacy booting mode is not going to be initiated automatically. This means that if the server 
-shuts down for whatever reason I need to press CTRL+L to initiate the boot mode again.**
+shuts down for whatever reason, CTRL+L need to be press to initiate this boot mode again.**

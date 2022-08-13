@@ -7,20 +7,25 @@ theme:
 plugins:
   - glightbox
 nav:
-  - Home: index.md
-  - About:
-      - WhoamI: about/whoami.md
+  - Home:
+      - Introduction: index.md
+      - WhoamI: home/whoami.md
   - Home server:
       -  Asus ChromeBox 4 - Duffy: server/DuffyCbox4.md
-  - Cybersec: Cybersec/mobile.md
+  - Cybersecurity:
+      - Mobile Pentest: Cybersec/mobile.md
   - Bicing:
       - Intro: Bicing/Bicing.md
-      - Bot: Bicing/Bot.md
       - Heatmap: Bicing/Heatmap.md
       - HomeAssistant: Bicing/HomeAssistant.md
+      - Bot: Bicing/Bot.md
 markdown_extensions:
   - pymdownx.snippets:
       check_paths: true
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 

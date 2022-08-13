@@ -49,7 +49,7 @@ tap_action:
 As you can see the color changes depending on the number of bikes available
 
 <figure markdown>
-  ![Bicing dashboard](dashboard.png)
+  ![Bicing dashboard](../images/dashboard.png)
   <figcaption></figcaption>
 </figure>
 

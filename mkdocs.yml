@@ -13,7 +13,11 @@ nav:
   - Home server:
       -  Asus ChromeBox 4 - Duffy: server/DuffyCbox4.md
   - Cybersecurity:
+      - Application Security:
+          - Introduction to Software deployment for microservices: Cybersec/AppSec/intro.md
+          - Security tools for Software Deployment: Cybersec/AppSec/securitytools.md
       - Mobile Pentest: Cybersec/mobile.md
+
   - Bicing:
       - Intro: Bicing/Bicing.md
       - Heatmap: Bicing/Heatmap.md

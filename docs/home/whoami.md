@@ -32,5 +32,5 @@ And that should be everything! I have enough projects to get me entertained for 
 
 If you have any suggestions, or just want to say hi you can find me on my Github page or Linkedin. Always happy to meet new people! 
 
-(:material-progress-wrench: means I'm working on it!)
+(:material-progress-wrench: means Work in progress!)
 
